@@ -1,7 +1,7 @@
 
 ---
 
-# BegginingProject
+# StarterProject
 
 This project serves as a template that I use to kickstart my simple projects. It provides a basic structure and initial configurations ready to use, allowing me to focus on developing the main features of my project without starting from scratch every time I create a new project.
 
