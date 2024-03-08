@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.wisnua.begginingproject"
+    namespace = "com.wisnua.starterproject"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.wisnua.begginingproject"
+        applicationId = "com.wisnua.starterproject"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

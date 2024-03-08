@@ -1,9 +1,9 @@
-package com.wisnua.begginingproject.utils
+package com.wisnua.starterproject.utils
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.wisnua.begginingproject.domain.model.Article
-import com.wisnua.begginingproject.domain.repository.NewsRepository
+import com.wisnua.starterproject.domain.model.Article
+import com.wisnua.starterproject.domain.repository.NewsRepository
 
 class NewsPagingSource(private val newsRepository: NewsRepository) : PagingSource<Int, Article>() {
 

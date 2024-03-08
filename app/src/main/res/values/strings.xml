@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BegginingProject</string>
+    <string name="app_name">StarterProject</string>
     <string name="label_very_long_subtitle">Example of very long of subtitle</string>
     <string name="label_very_long_title">Very Long Title</string>
     <string name="label_short_title">Short Title</string>

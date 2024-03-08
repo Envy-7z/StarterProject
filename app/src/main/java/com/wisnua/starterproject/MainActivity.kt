@@ -1,4 +1,4 @@
-package com.wisnua.begginingproject
+package com.wisnua.starterproject
 
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -8,10 +8,10 @@ import androidx.lifecycle.lifecycleScope
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.wisnua.begginingproject.databinding.ActivityMainBinding
-import com.wisnua.begginingproject.presentation.adapter.NewsAdapter
-import com.wisnua.begginingproject.presentation.viewModel.NewsViewModel
-import com.wisnua.begginingproject.utils.NewsLoadStateAdapter
+import com.wisnua.starterproject.databinding.ActivityMainBinding
+import com.wisnua.starterproject.presentation.adapter.NewsAdapter
+import com.wisnua.starterproject.presentation.viewModel.NewsViewModel
+import com.wisnua.starterproject.utils.NewsLoadStateAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

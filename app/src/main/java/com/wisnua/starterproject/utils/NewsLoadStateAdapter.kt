@@ -1,4 +1,4 @@
-package com.wisnua.begginingproject.utils
+package com.wisnua.starterproject.utils
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.core.view.isVisible
 import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.wisnua.begginingproject.databinding.ItemLoadStateBinding
+import com.wisnua.starterproject.databinding.ItemLoadStateBinding
 
 class NewsLoadStateAdapter(private val retry: () -> Unit) :
     LoadStateAdapter<NewsLoadStateAdapter.LoadStateViewHolder>() {

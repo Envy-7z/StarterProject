@@ -1,4 +1,4 @@
-package com.wisnua.begginingproject
+package com.wisnua.starterproject
 
 import org.junit.Test
 

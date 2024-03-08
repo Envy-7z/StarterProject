@@ -1,5 +1,5 @@
 // File: MyApp.kt
-package com.wisnua.begginingproject
+package com.wisnua.starterproject
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

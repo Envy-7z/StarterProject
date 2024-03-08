@@ -1,6 +1,6 @@
-package com.wisnua.begginingproject.data.remote
+package com.wisnua.starterproject.data.remote
 
-import com.wisnua.begginingproject.domain.model.NewsResponse
+import com.wisnua.starterproject.domain.model.NewsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

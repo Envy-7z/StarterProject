@@ -1,4 +1,4 @@
-package com.wisnua.begginingproject.presentation.adapter
+package com.wisnua.starterproject.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.wisnua.begginingproject.R
-import com.wisnua.begginingproject.databinding.ContentNewsBinding
-import com.wisnua.begginingproject.domain.model.Article
+import com.wisnua.starterproject.R
+import com.wisnua.starterproject.databinding.ContentNewsBinding
+import com.wisnua.starterproject.domain.model.Article
 
 class NewsAdapter : PagingDataAdapter<Article, NewsAdapter.NewsViewHolder>(ArticleDiffCallback()) {
 

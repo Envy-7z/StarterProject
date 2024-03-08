@@ -5,7 +5,7 @@
     <data>
         <variable
             name="vm"
-            type="com.wisnua.begginingproject.presentation.viewModel.NewsViewModel" />
+            type="com.wisnua.starterproject.presentation.viewModel.NewsViewModel" />
     </data>
 
     <LinearLayout

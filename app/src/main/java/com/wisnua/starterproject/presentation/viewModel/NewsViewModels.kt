@@ -1,12 +1,12 @@
-package com.wisnua.begginingproject.presentation.viewModel
+package com.wisnua.starterproject.presentation.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import com.wisnua.begginingproject.domain.model.Article
-import com.wisnua.begginingproject.domain.repository.NewsRepository
-import com.wisnua.begginingproject.utils.NewsPagingSource
+import com.wisnua.starterproject.domain.model.Article
+import com.wisnua.starterproject.domain.repository.NewsRepository
+import com.wisnua.starterproject.utils.NewsPagingSource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

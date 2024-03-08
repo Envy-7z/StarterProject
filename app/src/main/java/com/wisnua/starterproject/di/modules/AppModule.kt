@@ -1,8 +1,8 @@
-package com.wisnua.begginingproject.di.modules
+package com.wisnua.starterproject.di.modules
 
-import com.wisnua.begginingproject.data.remote.ApiService
-import com.wisnua.begginingproject.data.repository.NewsRepositoryImpl
-import com.wisnua.begginingproject.domain.repository.NewsRepository
+import com.wisnua.starterproject.data.remote.ApiService
+import com.wisnua.starterproject.data.repository.NewsRepositoryImpl
+import com.wisnua.starterproject.domain.repository.NewsRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
