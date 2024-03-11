@@ -77,4 +77,7 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.15.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.0")
 
+    //viewpager
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+
 }
